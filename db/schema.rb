@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 2021_10_16_121920) do
     t.string "place", null: false
     t.datetime "start_at", null: false
     t.datetime "end_at", null: false
-    t.text "context", null: false
+    t.text "content", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["owner_id"], name: "index_events_on_owner_id"
