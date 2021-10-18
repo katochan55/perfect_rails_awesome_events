@@ -25,6 +25,7 @@ gem 'active_storage_validations', '~> 0.8.8'
 gem 'image_processing', '~> 1.2'
 
 gem 'kaminari'
+gem 'searchkick', '~> 4.3.0'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
